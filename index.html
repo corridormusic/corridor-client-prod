@@ -25,10 +25,14 @@
         </script>
 
         <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-    <link href="/app.bundle.css?9ed77430eb904ee09bdb" rel="stylesheet"></head>
+        <script type="text/javascript">
+            // fix safari issue
+            window.OscillatorNode = function OscillatorNode() {}
+        </script>
+    <link href="/app.bundle.css?5b1f74bfea4587f5b1de" rel="stylesheet"></head>
     <body data-ng-app="app" data-ng-strict-di>
         <cm-popup></cm-popup>
         <cm-templates></cm-templates>
         <div ui-view="content"></div>
-    <script type="text/javascript" src="/vendor.bundle.js?9ed77430eb904ee09bdb"></script><script type="text/javascript" src="/app.bundle.js?9ed77430eb904ee09bdb"></script></body>
+    <script type="text/javascript" src="/vendor.bundle.js?5b1f74bfea4587f5b1de"></script><script type="text/javascript" src="/app.bundle.js?5b1f74bfea4587f5b1de"></script></body>
 </html>
